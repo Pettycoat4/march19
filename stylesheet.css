@@ -1,14 +1,37 @@
 /*******STYLE USED ON ALL PAGES - WRAPPER, HEADER, NAV AND SOCIAL MEDIA*****/
+body {
+	background:#193E63;
+}
+
 #wrapper {
 	width:900px;
 	margin: 0 auto;
-	border: 2px solid black;
-	background:yellow;
+	/*border: 2px solid black;*/
+	/*background:yellow;*/
 }
-/*TOP OF PAGE*/
+
+#footer {
+	/*background-color: green;*/
+	width: 80%;
+	height:100px;
+	clear:both;
+	position: relative;
+	margin: 0 auto;
+	color: #193E63
+	top:100px;
+	/*border: 2px solid black;*/
+    }
+
+#footer p {
+    padding-top: 70px;
+	padding: 60px 25px auto 100px;
+	color:#bbb;
+	
+}
+/***************TOP OF PAGE***************/
 
 header  {
-	background:purple;
+	/*background:purple;*/
 	width: 900px;
 	text-align: center;
 }
@@ -16,6 +39,7 @@ header  {
 h1  {
 	font-family: Verdana, sans-serif;
 	font-size: 2em;
+	color:#fff;
 
 }
 
@@ -23,6 +47,7 @@ h2  {
 	margin-top: -20px;
 	font-family: Verdana, sans-serif;
 	font-size: 1.25em;
+	color:#fff;
 }
 
 
@@ -52,11 +77,23 @@ h2  {
 	
 }
 
+#nav ul a:link li {
+
+    color: #fff;
+
+}
+
+#nav ul a:visited li {
+
+    color: #aaa;
+}
+
+
 #socialmediabar {
 	float:left;
 	display:block;
 	position:fixed;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	
 
 
@@ -72,14 +109,17 @@ h2  {
 
 /*UP FROM HERE IS TOP OF ALL PAGES PAGE*/
 
-.selected {
-	color: 
-}
 
-/*******STYLE USED ON ALL PAGES - WRAPPER, HEADER, NAV AND SOCIAL MEDIA*****/
+
+
+
+/*******UP FROM HERE IS STYLE USED ON ALL PAGES - WRAPPER, HEADER, FOOTSIENAV AND SOCIAL MEDIA*****/
 
 /**************************************
-/*******STYLE USED ON INDEX PAGE *****/
+*******STYLE USED ON INDEX PAGE********
+****DO NOT TOUCH ON ANY OTHER PAGE*****
+/**************************************
+***************************************/
 #col1  {
 	float: left;
 	width: 40%;
@@ -88,7 +128,20 @@ h2  {
 	top: 50px;
 	left:300;
 	text-align: justify;
+	background:#fff;
+	padding: 10px 10px 16px 10px;
 	/*border: 2px solid green;*/
+}
+
+#col1 p {
+	padding:1%;
+}
+
+#col1 p img, #col2 p img {
+	height: 200px;
+	width: 200px;
+	float:left;
+	margin: 0 15px 0 0;
 }
 
 #col2 {
@@ -99,26 +152,116 @@ float: left;
 	top: 50px;
 	left:300;
 	text-align: justify;
+	background:#fff;
+	padding: 10px;
 	/*border: 2px solid green;*/
 }
 
-#col1 p {
-	padding:1%;
-}
+
 
 #col2 p {
 	padding:2%;
 }
 
-/*******STYLE USED ON INDEX PAGE DONE *****/
+/*******ABOVE STYLE USED ON INDEX PAGE DONE *****/
+
+
+/**************************************
+**BELOW STYLE USED ON THREECOLUMN PAGE*
+****DO NOT TOUCH ON ANY OTHER PAGE*****
+/**************************************
+***************************************/
+#col3  {
+	float: left;
+	width: 20%;
+	margin-left: 10%;
+	position:relative;
+	top: 50px;
+	left:300;
+	text-align: justify;
+	background:#fff;
+	padding: 10px 10px 55px 10px;
+	/*border: 2px solid green;*/
+}
+
+#col3 p {
+	padding:1% 1% 73px 1%;
+}
+
+#col3 p img, #col4 p img, #col5 p img {
+	height: 100px;
+	width: 100px;
+	float:left;
+	margin: 0 15px 0 0;
+}
+
+#col4 {
+float: left;
+	width: 45%;
+	/*margin-left: 1%;*/
+	position:relative;
+	top: 50px;
+	left:300;
+	text-align: justify;
+	background:#fff;
+	padding: 10px;
+	/*border: 2px solid green;*/
+}
+
+#col4 p {
+	padding:1%;
+}
 
 
 
+#col5 {
+float: left;
+	width: 18%;
+	/*margin-left: 1%;*/
+	position:relative;
+	top: 50px;
+	left:300;
+	text-align: left;
+	background:#fff;
+	padding: 10px 10px 122px 10px;
+	/*border: 2px solid green;*/
+}
+
+#col5 p {
+	padding:1%;
+}
+/**************************************
+*ABOVE STYLE USED ON THREECOLUMN PAGE**
+****DO NOT TOUCH ON ANY OTHER PAGE*****
+/**************************************
+***************************************/
 
 
 
+/**************************************
+*ABELOW STYLE USED ON GALLERY PAGE**
+****DO NOT TOUCH ON ANY OTHER PAGE*****
+/**************************************
+***************************************/
+
+#gallery  {
+	width:650px;
+	position:relative;
+	top:50px;
+	left:155px;
+	/*border: 2px solid black;*/
 
 
+}
 
+#gallery img {
+	height: 200px;
+	width:200px;
+	float:left;
+	margin: 5px 5px 5px 5px;
+	border: 3px solid black;
+
+
+}
 
 
